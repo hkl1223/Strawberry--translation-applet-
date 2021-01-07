@@ -1,0 +1,5 @@
+/**history.wxss**/
+.container{
+  color: red;
+  font-size: 40rpx;
+}
