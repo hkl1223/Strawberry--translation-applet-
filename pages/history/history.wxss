@@ -1,5 +1,33 @@
 /**history.wxss**/
-.container{
+
+.history-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+
+.title {
+  font-size: 26rpx;
+  color: #8995a1;
+}
+
+.item {
+  margin-top: 40rpx;
+}
+
+.item .query {
+  color: #8995a1;
+}
+
+.item .result {
+  margin-top: 16rpx;
+}
+
+.btn {
+  font-size: 24rpx;
+  display: flex;
+  margin-top: -40rpx;
   color: red;
-  font-size: 40rpx;
+  box-shadow: 1px 1px 1px 0 rgb(0, 0, 0, 0.2);
+  background: #fff;
 }

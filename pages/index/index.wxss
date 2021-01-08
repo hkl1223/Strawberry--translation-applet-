@@ -32,3 +32,23 @@
   margin: 0;
   box-sizing: border-box;
 }
+.input-area .icon-close{
+  position: absolute;
+  right: 12rpx;
+  top: 12rpx;
+  z-index: 100;
+  font-size: 40rpx;
+  color: #888;
+}
+.input-area .text-area{
+  min-height: 80rpx;
+  padding: 40rpx;
+  background-color: #fff;
+}
+.input-area .text-title{
+  font-size: 28rpx;
+  color: #8995a1;
+}
+.input-area .text-result{
+  padding: 20rpx 0;
+}

@@ -1,4 +1,5 @@
 /**app.wxss**/
+@import"./pages/assets/iconfont/iconfont.wxss";
 .container {
   padding: 0;
   background-color: #f5fafe;

@@ -1,14 +1,14 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
     "pages/change/change",
     "pages/history/history"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "草莓翻译",
-    "navigationBarTextStyle":"black",
+    "navigationBarTextStyle": "black",
     "backgroundColor": "#333"
   },
   "tabBar": {
@@ -17,15 +17,17 @@
     "color": "#595959",
     "selectedColor": "#f10000",
     "list": [
-      {"pagePath": "pages/index/index",
-      "iconPath": "./pages/icons/fanyi.png",
-      "text":"翻译"
-    },
-    {
-      "pagePath": "pages/history/history",
-      "iconPath": "./pages/icons/history.png",
-      "text": "历史"
-    }
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "./pages/icons/fanyi.png",
+        "text": "翻译"
+      },
+      {
+        "pagePath": "pages/history/history",
+        "iconPath": "./pages/icons/history.png",
+        "text": "历史"
+      }
     ]
-  }
+  },
+  "sitemapLocation": "sitemap10.json"
 }
