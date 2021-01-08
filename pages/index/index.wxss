@@ -1,7 +1,7 @@
 /**index.wxss**/
 .change {
   color: #8995a1;
-  font-size: 24rpx;
+  font-size: 30rpx;
   padding: 20rpx 40rpx;
   display: flex;
   align-items: center;
@@ -13,7 +13,7 @@
 
 .change .icon-down {
   color: #8995a1;
-  font-size: 20rpx;
+  font-size: 30rpx;
 }
 
 .input-area {
