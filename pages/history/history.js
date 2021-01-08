@@ -16,10 +16,12 @@ Page({
   },
 
   clear: function () {
-    if (history && history.length !== 0) {
+    if (this.data.history && this.data.history.length !== 0) {
+      this.setData({
+        history: [],
+      })
       wx.clearStorage()
     }
   },
-
 
 })
