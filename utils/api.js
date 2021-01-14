@@ -21,6 +21,7 @@ function translate(q, { from = 'auto', to = 'auto' } = { from: 'auto', to: 'auto
         if (res.data && res.data.trans_result) {
           resolve(res.data)
         } else {
+          if(res.data.error_code==="54003")return;
           reject({ status: 'error', msg: '翻译失败' })
           wx.showToast({
             title: '翻译失败',
