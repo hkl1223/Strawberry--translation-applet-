@@ -1,1 +1,2 @@
-# Strawberry--translation-applet-
+### 小程序：草莓翻译
+支持多语言的翻译工具
